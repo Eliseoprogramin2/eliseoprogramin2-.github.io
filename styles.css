@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #cbdef7; /* Color azul grisáceo */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+.gallery-item {
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+        .gallery-item:hover {
+            transform: scale(1.05);
+        }
+        
+
+.container {
+    margin-top: 100px;
+    color: #ffb200;
+}
+
+h1 {
+    font-size: 36px;
+    color: #2c3e50;
+}
+
+.btn-warning {
+    font-weight: bold;
+}
+
+.content {
+    margin: 20px;
+    display: none; /* Hidden by default */
+}
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #34495e;
+    color: white;
+}
+
+.circular-img {
+    border-radius: 50%;
+    width: 100px; /* Ajusta el tamaño según sea necesario */
+    height: 100px; /* Ajusta el tamaño según sea necesario */
+}
+
+/* Estilos adicionales para mejorar la presentación */
+.navbar {
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-top: 20px;
+    color: #2c3e50;
+}
+
+h3 {
+    margin-top: 15px;
+}
+
+textarea {
+    margin-top: 10px;
+}
+.profile-pic {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    display: block;
+    margin: 0 auto 10px;
+}
+
